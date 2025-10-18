@@ -57,3 +57,10 @@ npm run dev
 - **Qwen/Qwen3-14B**
 - **Qwen/Qwen-32B**
 - **zai-org/GLM-4.5-Air**
+
+## Supported commands
+- `/help` - Shows all available commands
+- `/clear` - Clears the memory
+- `/switch` - Switch LLM
+- `/exit` - Exit the CLI
+- `/stats` - Shows a summary of token consumptions.
