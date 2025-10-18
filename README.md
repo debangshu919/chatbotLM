@@ -21,7 +21,7 @@ cd chatbotLM
 2. Install dependencies
 
 ```bash
-npm install
+pnpm install
 ```
 
 3. Create the `.env` file
@@ -34,7 +34,7 @@ cp .env.example .env
 5. Run the application
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Tech Stack
@@ -55,7 +55,6 @@ npm run dev
 - **mistralai/Devstral-Small-2505**
 - **Qwen/Qwen3-Coder-30B-A3B-Instruct**
 - **Qwen/Qwen3-14B**
-- **Qwen/Qwen-32B**
 - **zai-org/GLM-4.5-Air**
 
 ## Supported commands
