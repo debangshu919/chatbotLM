@@ -1,7 +1,7 @@
 {
   "name": "chatbotlm",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI tool to interact with open-source LLMs",
   "main": "dist/index.js",
   "scripts": {
     "start": "node --env-file .env dist/index.js",
@@ -9,7 +9,7 @@
     "dev": "tsc && clear && node --env-file .env dist/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "debangshu919",
   "license": "ISC",
   "packageManager": "pnpm@10.17.0",
   "dependencies": {
