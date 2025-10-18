@@ -19,7 +19,7 @@ async function selectModel() {
       },
       {
         value: "meta-llama/Meta-Llama-3.1-8B-Instruct",
-        label: "Meta-Llama-3.1-8B-Instruct",
+        label: "Llama-3.1-8B-Instruct",
       },
       { value: "mistralai/Devstral-Small-2505", label: "Devstral-Small-2505" },
       {
@@ -27,7 +27,6 @@ async function selectModel() {
         label: "Qwen3-Coder-30B-A3B-Instruct",
       },
       { value: "Qwen/Qwen3-14B", label: "Qwen3-14B" },
-      { value: "Qwen/Qwen-32B", label: "Qwen-32B" },
       { value: "zai-org/GLM-4.5-Air", label: "GLM-4.5-Air" },
     ],
   })) as string;
@@ -118,9 +117,9 @@ async function main() {
         }
 
         if (chunk.usage) {
-          inputTokens = chunk.usage.prompt_tokens;
-          outputTokens = chunk.usage.completion_tokens;
-          totalTokens = chunk.usage.total_tokens;
+          inputTokens += chunk.usage.prompt_tokens;
+          outputTokens += chunk.usage.completion_tokens;
+          totalTokens += chunk.usage.total_tokens;
         }
       }
     }
