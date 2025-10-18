@@ -68,7 +68,7 @@ async function main() {
     if (prompt === "/exit") {
       break;
     } else if (prompt === "/clear") {
-      messages = [];
+      messages = [{ role: "system", content: SYSTEM_PROMPT }];
       cli.log.info(pc.cyan("Memory cleared"));
       continue;
     } else if (prompt === "/switch") {
