@@ -55,7 +55,6 @@ npm run dev
 - **mistralai/Devstral-Small-2505**
 - **Qwen/Qwen3-Coder-30B-A3B-Instruct**
 - **Qwen/Qwen3-14B**
-- **Qwen/Qwen-32B**
 - **zai-org/GLM-4.5-Air**
 
 ## Supported commands
