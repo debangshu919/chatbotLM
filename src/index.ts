@@ -22,6 +22,13 @@ async function selectModel() {
         label: "Meta-Llama-3.1-8B-Instruct",
       },
       { value: "mistralai/Devstral-Small-2505", label: "Devstral-Small-2505" },
+      {
+        value: "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        label: "Qwen3-Coder-30B-A3B-Instruct",
+      },
+      { value: "Qwen/Qwen3-14B", label: "Qwen3-14B" },
+      { value: "Qwen/Qwen-32B", label: "Qwen-32B" },
+      { value: "zai-org/GLM-4.5-Air", label: "GLM-4.5-Air" },
     ],
   })) as string;
 }
